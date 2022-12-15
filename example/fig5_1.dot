@@ -1,0 +1,27 @@
+digraph fig5_1
+{	
+  node [colorscheme=paired6,
+		fillcolor=1,
+		fontname=courier,
+		label="\N",
+		shape=circle,
+		style=filled
+	];
+  edge [fontname = courier];
+  
+  0 [label=0]
+  0 -> 1 [label="eps"]
+  0 -> 3 [label="eps"]  
+
+  1 [label=1, shape=doublecircle]
+  1 -> 2 [label="a"]
+
+  2 [label=2, shape=doublecircle]
+  2 -> 2 [label="a"]
+
+  3 [label=3]
+  3 -> 4 [label="b"]
+
+  4 [label=4, shape=doublecircle]
+  4 -> 4 [label="b"]
+}
